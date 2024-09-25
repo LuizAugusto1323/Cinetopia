@@ -12,12 +12,40 @@
 		480C2CE52AF089AA00E8C875 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 480C2CE42AF089AA00E8C875 /* Assets.xcassets */; };
 		480C2CE82AF089AA00E8C875 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 480C2CE62AF089AA00E8C875 /* LaunchScreen.storyboard */; };
 		58A7A8A256326A8A1C6AA1DF /* Pods_Cinetopia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 20AF5D4D15DC557BA5645E3E /* Pods_Cinetopia.framework */; };
+		6402CA7F2C876AF2005D51E9 /* FavoriteMoviesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6402CA7E2C876AF1005D51E9 /* FavoriteMoviesViewController.swift */; };
 		640875DB2C7E333600021CF1 /* MovieService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 640875DA2C7E333600021CF1 /* MovieService.swift */; };
+		641E5E492C90A4B900DC20EA /* FavoriteMovieCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 641E5E482C90A4B900DC20EA /* FavoriteMovieCollectionViewCell.swift */; };
+		643DC6C52C9B312B001E6C28 /* MovieManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 643DC6C42C9B312B001E6C28 /* MovieManager.swift */; };
+		64A5FB5E2C934A500056DD78 /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64A5FB5D2C934A500056DD78 /* TabBarController.swift */; };
 		64C6D0902C7922FD009E9B45 /* MovieTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64C6D08F2C7922FD009E9B45 /* MovieTableViewCell.swift */; };
 		64C6D0922C792315009E9B45 /* Movie.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64C6D0912C792315009E9B45 /* Movie.swift */; };
 		64C6D0962C792330009E9B45 /* MoviesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64C6D0932C792330009E9B45 /* MoviesViewController.swift */; };
 		64C6D0972C792330009E9B45 /* MovieDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64C6D0942C792330009E9B45 /* MovieDetailsViewController.swift */; };
 		64C6D0982C792330009E9B45 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64C6D0952C792330009E9B45 /* HomeViewController.swift */; };
+		64DE669F2C91FA4600BC6AF2 /* FavoriteCollectionReusableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64DE669E2C91FA4600BC6AF2 /* FavoriteCollectionReusableView.swift */; };
+		64EDB3422CA1CC1C004ACD9C /* avatar-2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 64EDB3292CA1CC1C004ACD9C /* avatar-2.jpg */; };
+		64EDB3432CA1CC1C004ACD9C /* avatar.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 64EDB32A2CA1CC1C004ACD9C /* avatar.jpg */; };
+		64EDB3442CA1CC1C004ACD9C /* barbie.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 64EDB32B2CA1CC1C004ACD9C /* barbie.jpg */; };
+		64EDB3452CA1CC1C004ACD9C /* frozen-2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 64EDB32C2CA1CC1C004ACD9C /* frozen-2.jpg */; };
+		64EDB3462CA1CC1C004ACD9C /* harry-potter-reliquias-da-morte-2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 64EDB32D2CA1CC1C004ACD9C /* harry-potter-reliquias-da-morte-2.jpg */; };
+		64EDB3472CA1CC1C004ACD9C /* homem-aranha-sem-volta-para-casa.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 64EDB32E2CA1CC1C004ACD9C /* homem-aranha-sem-volta-para-casa.jpg */; };
+		64EDB3482CA1CC1C004ACD9C /* jurassic-world-reino-ameacado.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 64EDB32F2CA1CC1C004ACD9C /* jurassic-world-reino-ameacado.jpg */; };
+		64EDB3492CA1CC1C004ACD9C /* jurassic-world.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 64EDB3302CA1CC1C004ACD9C /* jurassic-world.jpg */; };
+		64EDB34A2CA1CC1C004ACD9C /* mario-bros.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 64EDB3312CA1CC1C004ACD9C /* mario-bros.jpg */; };
+		64EDB34B2CA1CC1C004ACD9C /* os-vingadores.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 64EDB3322CA1CC1C004ACD9C /* os-vingadores.jpg */; };
+		64EDB34C2CA1CC1C004ACD9C /* pantera-negra.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 64EDB3332CA1CC1C004ACD9C /* pantera-negra.jpg */; };
+		64EDB34D2CA1CC1C004ACD9C /* rei-leao.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 64EDB3342CA1CC1C004ACD9C /* rei-leao.jpg */; };
+		64EDB34E2CA1CC1C004ACD9C /* star-wars-despertar-da-forca.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 64EDB3352CA1CC1C004ACD9C /* star-wars-despertar-da-forca.jpg */; };
+		64EDB34F2CA1CC1C004ACD9C /* star-wars-ultimo-jedi.png in Resources */ = {isa = PBXBuildFile; fileRef = 64EDB3362CA1CC1C004ACD9C /* star-wars-ultimo-jedi.png */; };
+		64EDB3502CA1CC1C004ACD9C /* titanic.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 64EDB3372CA1CC1C004ACD9C /* titanic.jpg */; };
+		64EDB3512CA1CC1C004ACD9C /* top-gun.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 64EDB3382CA1CC1C004ACD9C /* top-gun.jpg */; };
+		64EDB3522CA1CC1C004ACD9C /* velozes-furiosos-7.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 64EDB3392CA1CC1C004ACD9C /* velozes-furiosos-7.jpg */; };
+		64EDB3532CA1CC1C004ACD9C /* vingadores-era-de-ultron.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 64EDB33A2CA1CC1C004ACD9C /* vingadores-era-de-ultron.jpg */; };
+		64EDB3542CA1CC1C004ACD9C /* vingadores-guerra-infinita.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 64EDB33B2CA1CC1C004ACD9C /* vingadores-guerra-infinita.jpg */; };
+		64EDB3552CA1CC1C004ACD9C /* vingadores-ultimato.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 64EDB33C2CA1CC1C004ACD9C /* vingadores-ultimato.jpg */; };
+		64EDB3562CA1CC1C004ACD9C /* db.json in Resources */ = {isa = PBXBuildFile; fileRef = 64EDB33E2CA1CC1C004ACD9C /* db.json */; };
+		64EDB3572CA1CC1C004ACD9C /* package.json in Resources */ = {isa = PBXBuildFile; fileRef = 64EDB33F2CA1CC1C004ACD9C /* package.json */; };
+		64EDB3582CA1CC1C004ACD9C /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 64EDB3402CA1CC1C004ACD9C /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,12 +56,40 @@
 		480C2CE42AF089AA00E8C875 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		480C2CE72AF089AA00E8C875 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		480C2CE92AF089AA00E8C875 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6402CA7E2C876AF1005D51E9 /* FavoriteMoviesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteMoviesViewController.swift; sourceTree = "<group>"; };
 		640875DA2C7E333600021CF1 /* MovieService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MovieService.swift; sourceTree = "<group>"; };
+		641E5E482C90A4B900DC20EA /* FavoriteMovieCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteMovieCollectionViewCell.swift; sourceTree = "<group>"; };
+		643DC6C42C9B312B001E6C28 /* MovieManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieManager.swift; sourceTree = "<group>"; };
+		64A5FB5D2C934A500056DD78 /* TabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
 		64C6D08F2C7922FD009E9B45 /* MovieTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MovieTableViewCell.swift; sourceTree = "<group>"; };
 		64C6D0912C792315009E9B45 /* Movie.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Movie.swift; sourceTree = "<group>"; };
 		64C6D0932C792330009E9B45 /* MoviesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MoviesViewController.swift; sourceTree = "<group>"; };
 		64C6D0942C792330009E9B45 /* MovieDetailsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MovieDetailsViewController.swift; sourceTree = "<group>"; };
 		64C6D0952C792330009E9B45 /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		64DE669E2C91FA4600BC6AF2 /* FavoriteCollectionReusableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteCollectionReusableView.swift; sourceTree = "<group>"; };
+		64EDB3292CA1CC1C004ACD9C /* avatar-2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "avatar-2.jpg"; sourceTree = "<group>"; };
+		64EDB32A2CA1CC1C004ACD9C /* avatar.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = avatar.jpg; sourceTree = "<group>"; };
+		64EDB32B2CA1CC1C004ACD9C /* barbie.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = barbie.jpg; sourceTree = "<group>"; };
+		64EDB32C2CA1CC1C004ACD9C /* frozen-2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "frozen-2.jpg"; sourceTree = "<group>"; };
+		64EDB32D2CA1CC1C004ACD9C /* harry-potter-reliquias-da-morte-2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "harry-potter-reliquias-da-morte-2.jpg"; sourceTree = "<group>"; };
+		64EDB32E2CA1CC1C004ACD9C /* homem-aranha-sem-volta-para-casa.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "homem-aranha-sem-volta-para-casa.jpg"; sourceTree = "<group>"; };
+		64EDB32F2CA1CC1C004ACD9C /* jurassic-world-reino-ameacado.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "jurassic-world-reino-ameacado.jpg"; sourceTree = "<group>"; };
+		64EDB3302CA1CC1C004ACD9C /* jurassic-world.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "jurassic-world.jpg"; sourceTree = "<group>"; };
+		64EDB3312CA1CC1C004ACD9C /* mario-bros.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "mario-bros.jpg"; sourceTree = "<group>"; };
+		64EDB3322CA1CC1C004ACD9C /* os-vingadores.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "os-vingadores.jpg"; sourceTree = "<group>"; };
+		64EDB3332CA1CC1C004ACD9C /* pantera-negra.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "pantera-negra.jpg"; sourceTree = "<group>"; };
+		64EDB3342CA1CC1C004ACD9C /* rei-leao.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "rei-leao.jpg"; sourceTree = "<group>"; };
+		64EDB3352CA1CC1C004ACD9C /* star-wars-despertar-da-forca.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "star-wars-despertar-da-forca.jpg"; sourceTree = "<group>"; };
+		64EDB3362CA1CC1C004ACD9C /* star-wars-ultimo-jedi.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "star-wars-ultimo-jedi.png"; sourceTree = "<group>"; };
+		64EDB3372CA1CC1C004ACD9C /* titanic.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = titanic.jpg; sourceTree = "<group>"; };
+		64EDB3382CA1CC1C004ACD9C /* top-gun.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "top-gun.jpg"; sourceTree = "<group>"; };
+		64EDB3392CA1CC1C004ACD9C /* velozes-furiosos-7.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "velozes-furiosos-7.jpg"; sourceTree = "<group>"; };
+		64EDB33A2CA1CC1C004ACD9C /* vingadores-era-de-ultron.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "vingadores-era-de-ultron.jpg"; sourceTree = "<group>"; };
+		64EDB33B2CA1CC1C004ACD9C /* vingadores-guerra-infinita.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "vingadores-guerra-infinita.jpg"; sourceTree = "<group>"; };
+		64EDB33C2CA1CC1C004ACD9C /* vingadores-ultimato.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "vingadores-ultimato.jpg"; sourceTree = "<group>"; };
+		64EDB33E2CA1CC1C004ACD9C /* db.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = db.json; sourceTree = "<group>"; };
+		64EDB33F2CA1CC1C004ACD9C /* package.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = package.json; sourceTree = "<group>"; };
+		64EDB3402CA1CC1C004ACD9C /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		C576304B6C7B3929B86D3867 /* Pods-Cinetopia.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Cinetopia.debug.xcconfig"; path = "Target Support Files/Pods-Cinetopia/Pods-Cinetopia.debug.xcconfig"; sourceTree = "<group>"; };
 		E748EF4FCA05CBF785EF318D /* Pods-Cinetopia.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Cinetopia.release.xcconfig"; path = "Target Support Files/Pods-Cinetopia/Pods-Cinetopia.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -71,6 +127,7 @@
 		480C2CDA2AF089A900E8C875 /* Cinetopia */ = {
 			isa = PBXGroup;
 			children = (
+				64EDB3282CA1CBC9004ACD9C /* Util */,
 				649C3DD12C7CDDCA0019A1BD /* Services */,
 				48AE715E2AF1975C002E4E8A /* Cells */,
 				48AE715B2AF19630002E4E8A /* Models */,
@@ -87,9 +144,11 @@
 		48AE715A2AF1962B002E4E8A /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
+				6402CA7E2C876AF1005D51E9 /* FavoriteMoviesViewController.swift */,
 				64C6D0952C792330009E9B45 /* HomeViewController.swift */,
 				64C6D0942C792330009E9B45 /* MovieDetailsViewController.swift */,
 				64C6D0932C792330009E9B45 /* MoviesViewController.swift */,
+				64A5FB5D2C934A500056DD78 /* TabBarController.swift */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -98,6 +157,7 @@
 			isa = PBXGroup;
 			children = (
 				64C6D0912C792315009E9B45 /* Movie.swift */,
+				643DC6C42C9B312B001E6C28 /* MovieManager.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -106,6 +166,8 @@
 			isa = PBXGroup;
 			children = (
 				64C6D08F2C7922FD009E9B45 /* MovieTableViewCell.swift */,
+				641E5E482C90A4B900DC20EA /* FavoriteMovieCollectionViewCell.swift */,
+				64DE669E2C91FA4600BC6AF2 /* FavoriteCollectionReusableView.swift */,
 			);
 			path = Cells;
 			sourceTree = "<group>";
@@ -116,6 +178,52 @@
 				640875DA2C7E333600021CF1 /* MovieService.swift */,
 			);
 			path = Services;
+			sourceTree = "<group>";
+		};
+		64EDB3282CA1CBC9004ACD9C /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				64EDB3412CA1CC1C004ACD9C /* movie-api-main */,
+			);
+			path = Util;
+			sourceTree = "<group>";
+		};
+		64EDB33D2CA1CC1C004ACD9C /* images */ = {
+			isa = PBXGroup;
+			children = (
+				64EDB3292CA1CC1C004ACD9C /* avatar-2.jpg */,
+				64EDB32A2CA1CC1C004ACD9C /* avatar.jpg */,
+				64EDB32B2CA1CC1C004ACD9C /* barbie.jpg */,
+				64EDB32C2CA1CC1C004ACD9C /* frozen-2.jpg */,
+				64EDB32D2CA1CC1C004ACD9C /* harry-potter-reliquias-da-morte-2.jpg */,
+				64EDB32E2CA1CC1C004ACD9C /* homem-aranha-sem-volta-para-casa.jpg */,
+				64EDB32F2CA1CC1C004ACD9C /* jurassic-world-reino-ameacado.jpg */,
+				64EDB3302CA1CC1C004ACD9C /* jurassic-world.jpg */,
+				64EDB3312CA1CC1C004ACD9C /* mario-bros.jpg */,
+				64EDB3322CA1CC1C004ACD9C /* os-vingadores.jpg */,
+				64EDB3332CA1CC1C004ACD9C /* pantera-negra.jpg */,
+				64EDB3342CA1CC1C004ACD9C /* rei-leao.jpg */,
+				64EDB3352CA1CC1C004ACD9C /* star-wars-despertar-da-forca.jpg */,
+				64EDB3362CA1CC1C004ACD9C /* star-wars-ultimo-jedi.png */,
+				64EDB3372CA1CC1C004ACD9C /* titanic.jpg */,
+				64EDB3382CA1CC1C004ACD9C /* top-gun.jpg */,
+				64EDB3392CA1CC1C004ACD9C /* velozes-furiosos-7.jpg */,
+				64EDB33A2CA1CC1C004ACD9C /* vingadores-era-de-ultron.jpg */,
+				64EDB33B2CA1CC1C004ACD9C /* vingadores-guerra-infinita.jpg */,
+				64EDB33C2CA1CC1C004ACD9C /* vingadores-ultimato.jpg */,
+			);
+			path = images;
+			sourceTree = "<group>";
+		};
+		64EDB3412CA1CC1C004ACD9C /* movie-api-main */ = {
+			isa = PBXGroup;
+			children = (
+				64EDB33D2CA1CC1C004ACD9C /* images */,
+				64EDB33E2CA1CC1C004ACD9C /* db.json */,
+				64EDB33F2CA1CC1C004ACD9C /* package.json */,
+				64EDB3402CA1CC1C004ACD9C /* README.md */,
+			);
+			path = "movie-api-main";
 			sourceTree = "<group>";
 		};
 		B9ED8C96E0DF812819034C74 /* Frameworks */ = {
@@ -195,8 +303,31 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				64EDB34F2CA1CC1C004ACD9C /* star-wars-ultimo-jedi.png in Resources */,
+				64EDB3482CA1CC1C004ACD9C /* jurassic-world-reino-ameacado.jpg in Resources */,
+				64EDB3432CA1CC1C004ACD9C /* avatar.jpg in Resources */,
 				480C2CE82AF089AA00E8C875 /* LaunchScreen.storyboard in Resources */,
+				64EDB3452CA1CC1C004ACD9C /* frozen-2.jpg in Resources */,
+				64EDB3502CA1CC1C004ACD9C /* titanic.jpg in Resources */,
+				64EDB3492CA1CC1C004ACD9C /* jurassic-world.jpg in Resources */,
+				64EDB3522CA1CC1C004ACD9C /* velozes-furiosos-7.jpg in Resources */,
+				64EDB3572CA1CC1C004ACD9C /* package.json in Resources */,
+				64EDB3552CA1CC1C004ACD9C /* vingadores-ultimato.jpg in Resources */,
+				64EDB34D2CA1CC1C004ACD9C /* rei-leao.jpg in Resources */,
+				64EDB34E2CA1CC1C004ACD9C /* star-wars-despertar-da-forca.jpg in Resources */,
+				64EDB3582CA1CC1C004ACD9C /* README.md in Resources */,
+				64EDB3422CA1CC1C004ACD9C /* avatar-2.jpg in Resources */,
+				64EDB3472CA1CC1C004ACD9C /* homem-aranha-sem-volta-para-casa.jpg in Resources */,
+				64EDB3542CA1CC1C004ACD9C /* vingadores-guerra-infinita.jpg in Resources */,
+				64EDB3442CA1CC1C004ACD9C /* barbie.jpg in Resources */,
+				64EDB3532CA1CC1C004ACD9C /* vingadores-era-de-ultron.jpg in Resources */,
+				64EDB3512CA1CC1C004ACD9C /* top-gun.jpg in Resources */,
+				64EDB34A2CA1CC1C004ACD9C /* mario-bros.jpg in Resources */,
+				64EDB34B2CA1CC1C004ACD9C /* os-vingadores.jpg in Resources */,
+				64EDB3462CA1CC1C004ACD9C /* harry-potter-reliquias-da-morte-2.jpg in Resources */,
 				480C2CE52AF089AA00E8C875 /* Assets.xcassets in Resources */,
+				64EDB3562CA1CC1C004ACD9C /* db.json in Resources */,
+				64EDB34C2CA1CC1C004ACD9C /* pantera-negra.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -249,13 +380,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6402CA7F2C876AF2005D51E9 /* FavoriteMoviesViewController.swift in Sources */,
 				64C6D0922C792315009E9B45 /* Movie.swift in Sources */,
 				64C6D0962C792330009E9B45 /* MoviesViewController.swift in Sources */,
 				64C6D0972C792330009E9B45 /* MovieDetailsViewController.swift in Sources */,
+				64DE669F2C91FA4600BC6AF2 /* FavoriteCollectionReusableView.swift in Sources */,
 				480C2CDC2AF089A900E8C875 /* AppDelegate.swift in Sources */,
 				64C6D0902C7922FD009E9B45 /* MovieTableViewCell.swift in Sources */,
 				64C6D0982C792330009E9B45 /* HomeViewController.swift in Sources */,
+				643DC6C52C9B312B001E6C28 /* MovieManager.swift in Sources */,
 				640875DB2C7E333600021CF1 /* MovieService.swift in Sources */,
+				64A5FB5E2C934A500056DD78 /* TabBarController.swift in Sources */,
+				641E5E492C90A4B900DC20EA /* FavoriteMovieCollectionViewCell.swift in Sources */,
 				480C2CDE2AF089A900E8C875 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

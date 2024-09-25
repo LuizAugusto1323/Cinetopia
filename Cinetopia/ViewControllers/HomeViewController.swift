@@ -61,10 +61,11 @@ class HomeViewController: UIViewController {
         super.viewDidLoad()
         view.backgroundColor = .background
         addSubViews()
-        setupConstrainsts()    }
+        setupConstrainsts()   
+    }
     
     @objc private func buttonPressed() {
-        navigationController?.pushViewController(MoviesViewController(), animated: true)
+        navigationController?.pushViewController(TabBarController(), animated: true)
     }
     
     private func addSubViews() {
