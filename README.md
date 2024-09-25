@@ -1,5 +1,3 @@
-![Thumbnail GitHub](https://github.com/giovannamoeller/ios-view-code-layouts-tabelas/assets/47362960/7a6d81b5-fa42-4c96-8697-76f19f5ab37c)
-
 # Cinetopia
 
 A aplicação Cinetopia é um aplicativo iOS que exibe a lista de filmes com maior arrecadação de bilheteria dos últimos tempos, utilizando a linguagem Swift e o framework UIKit, com a abordagem programática (view code).
@@ -26,10 +24,6 @@ A aplicação Cinetopia é um aplicativo iOS que exibe a lista de filmes com mai
 - `UITableViewCell`: Construção de células para tabelas
 
 E muito mais! 
- 
-## 📁 Acesso ao projeto
-
-Você pode [baixar o zip](https://github.com/alura-cursos/ios-view-code-layouts-tabelas/archive/refs/heads/main.zip) com o código final do projeto ou [acessar o código fonte](https://github.com/alura-cursos/ios-view-code-layouts-tabelas/).
 
 ## 🛠️ Abrir e rodar o projeto
 
@@ -46,6 +40,33 @@ Com o projeto aberto no XCode, você consegue visualizar todas as pastas e arqui
 
 Para rodar o seu projeto, você deve clicar no botão de play na parte superior do XCode. Você também pode alterar o simulador em que o aplicativo será exibido, e então, o projeto será aberto no simulador de sua preferência.
 
-## 📚 Mais informações do curso
+## 1. Baixe o Repositório da API
 
-Gostou do projeto e quer conhecer mais? Você pode [acessar o curso](https://cursos.alura.com.br/course/ios-view-code-layouts-tabelas) que desenvolve o projeto!
+Antes de tudo, precisamos ter o código da API em sua máquina. O projeto da API fica na pasta `Util` do projeto.
+
+## 2. Instale o NodeJS
+
+Se você ainda não possui o NodeJS instalado, é a hora de baixá-lo. Acesse o [site oficial do NodeJS](https://nodejs.org), faça o download da versão recomendada e siga os passos da instalação.
+
+Você precisa ter o NodeJS instalado na sua máquina, pois a API é feita com NodeJS, um ambiente de execução JavaScript do lado do servidor, permitindo o desenvolvimento de aplicações web escaláveis e assíncronas.
+
+> **Nota**: Não se preocupe se você não souber Javascript ou NodeJS! O objetivo aqui é apenas executar a nossa API, de onde vamos consumir os dados, salvar agendamentos de consulta, etc.
+
+## 3. Execute a API
+
+Para executar a API, siga os passos abaixo:
+
+1. Abra o terminal.
+2. Navegue até o diretório onde baixou o projeto da API, utilizando o comando:
+   
+    `cd <caminho-para-o-projeto>`
+
+3. Execute o seguinte comando para instalar todas as dependências do projeto:
+   
+    `npm install -g json-server`
+
+4. Para iniciar a API, digite:
+   
+    `json-server --watch db.json`
+   
+Pronto! Agora a API estará rodando localmente em sua máquina e estará pronta para receber as requisições de nosso projeto iOS.
