@@ -7,14 +7,9 @@
 
 import UIKit
 
-protocol FavoriteMovieCollectionViewCellDelegate: AnyObject {
-    func didSelectFavoriteButton(_ sender: UIButton)
-}
-
 class FavoriteMovieCollectionViewCell: UICollectionViewCell {
     
     // MARK: - Ui Componenets
-    
     private lazy var moviePosterImageView: UIImageView = {
         let imageView = UIImageView()
         imageView.translatesAutoresizingMaskIntoConstraints = false

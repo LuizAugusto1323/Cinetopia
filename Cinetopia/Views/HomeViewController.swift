@@ -77,7 +77,7 @@ class HomeViewController: UIViewController {
             welcomeButton.heightAnchor.constraint(equalToConstant: 64),
             welcomeButton.leadingAnchor.constraint(equalTo: stackView.leadingAnchor, constant: 64),
             welcomeButton.trailingAnchor.constraint(equalTo: stackView.trailingAnchor, constant: -64),
-            
+            //
             stackView.topAnchor.constraint(equalTo: view.safeAreaLayoutGuide.topAnchor),
             stackView.leadingAnchor.constraint(equalTo: view.leadingAnchor),
             stackView.trailingAnchor.constraint(equalTo: view.trailingAnchor),

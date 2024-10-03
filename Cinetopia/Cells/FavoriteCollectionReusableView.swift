@@ -9,8 +9,7 @@ import UIKit
 
 class FavoriteCollectionReusableView: UICollectionReusableView {
         
-    // MARK - UI Components
-    
+    // MARK: - UI Components
     private lazy var headerLabel: UILabel = {
         let label = UILabel()
         label.translatesAutoresizingMaskIntoConstraints = false
@@ -20,8 +19,7 @@ class FavoriteCollectionReusableView: UICollectionReusableView {
         return label
     }()
     
-    // MARK - Init
-    
+    // MARK: - Init
     override init(frame: CGRect) {
         super.init(frame: frame)
         addSubViews()
@@ -32,8 +30,7 @@ class FavoriteCollectionReusableView: UICollectionReusableView {
         fatalError("init(coder:) has not been implemented")
     }
     
-    // MARK - Class methods
-    
+    // MARK: - Class methods
     func setupTitle(_ title: String) {
         headerLabel.text = title
     }
