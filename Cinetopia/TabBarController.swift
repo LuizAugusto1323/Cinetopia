@@ -10,7 +10,6 @@ import UIKit
 class TabBarController: UITabBarController {
 
     // MARK: - View life cycle
-    
     override func viewDidLoad() {
         super.viewDidLoad()
         self.navigationItem.setHidesBackButton(true, animated: true)
@@ -18,9 +17,11 @@ class TabBarController: UITabBarController {
     }
     
     // MARK: - Class Methods
-
     private func setupTabBarController() {
-        let home = UINavigationController(rootViewController: MoviesViewController())
+        let view = MoviesView()
+        let interactor = MoviesInteractor()
+        let presenter = MoviesPresenter(view: view, interactor: interactor)
+        let home = UINavigationController(rootViewController: MoviesViewController(presenter: presenter, view: view))
         let favorites = UINavigationController(rootViewController: FavoriteMoviesViewController())
         let symbolConfiguration = UIImage.SymbolConfiguration(scale: .medium)
         

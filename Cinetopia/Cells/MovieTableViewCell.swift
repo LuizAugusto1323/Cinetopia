@@ -8,10 +8,6 @@
 import UIKit
 import Kingfisher
 
-protocol MovieTableViewCellDelegate: AnyObject {
-    func didSelectFavoriteButton(sender: UIButton)
-}
-
 class MovieTableViewCell: UITableViewCell {
     
     private lazy var moviePosterImageView: UIImageView = {

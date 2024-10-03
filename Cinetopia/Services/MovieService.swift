@@ -15,7 +15,7 @@ enum MovieServiceError: Error {
 
 struct MovieService {
     
-    // fazendo requisições na manualmente
+    // fazendo requisições manualmente
     func getMovies() async throws -> [Movie] {
         
         let urlString = "http://localhost:3000/movies"
